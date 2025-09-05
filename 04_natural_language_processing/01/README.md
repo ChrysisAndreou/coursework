@@ -101,7 +101,7 @@ Ensure you have Python 3 installed. You will need to install the required librar
 ### 3. Execution
 - **To run the Python script:**
   ```bash
-  python code1.py
+  python code.py
   ```
   This will execute the entire pipeline, print statistics and classification reports to the console, display plots, and save the pre-processing stats to `preprocessing_stats.csv`.
 
@@ -112,7 +112,7 @@ Ensure you have Python 3 installed. You will need to install the required librar
   ```
 
 ## Project Files
-- `code1.py`: The main Python script containing the full pre-processing, analysis, and classification pipeline.
+- `code.py`: The main Python script containing the full pre-processing, analysis, and classification pipeline.
 - `jupyter.ipynb`: The Jupyter Notebook version of the script, showing the code and its corresponding outputs.
 - `preprocessing_stats.csv`: The output CSV file containing the statistics (token counts, vocabulary sizes) for each pre-processing step.
 - `assignment_description.pdf`: The original assignment description providing context and requirements for the project.
